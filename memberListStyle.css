@@ -1,0 +1,38 @@
+/* MEMBER LIST */
+/* .userList {
+  display: none;
+} */
+
+.userList {
+  width: 700px;
+  margin: 0 auto;
+  text-align: center;
+}
+h3 {
+  margin-top: 10px;
+}
+
+table {
+  width: 700px;
+  margin: 0 auto;
+  z-index: 50;
+}
+.people {
+  width: 300px;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+}
+table th,
+td {
+  border-bottom: 1px solid #ddd;
+  padding: 10px;
+}
+tr:hover {
+  background-color: cadetblue;
+  cursor: pointer;
+  user-select: none;
+}
+thead tr:hover {
+  background-color: #fff;
+}

@@ -1,0 +1,45 @@
+body {
+  font-family: "Courier New", Courier, monospace;
+  background-image: url("/bg-books.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+}
+.container-fluid {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* FORM */
+.form {
+  max-width: 500px;
+  padding: 30px;
+  border-radius: 10px;
+  padding-top: 15px;
+}
+h2,
+h4 {
+  text-align: center;
+}
+
+/* REGISTERED TEXT */
+.registered {
+  font-family: monospace;
+  display: none;
+  width: 500px;
+  height: 500px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-weight: bold;
+}
+.registered h4 {
+  font-size: 35px;
+}
+.registered button {
+  margin-top: 30px;
+  font-size: 25px;
+  font-weight: bold;
+}
